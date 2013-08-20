@@ -4,6 +4,10 @@ import java.util.Random;
 public class StringProblems {
 
 	public static void main(String[] args) {
+		calculateAverage();
+	}
+
+	public static void calculateAverage() {
 		Scanner reader = new Scanner(System.in);
 
 		double apr, may, jun;
@@ -16,6 +20,6 @@ public class StringProblems {
 		jun = reader.nextDouble();
 
 		System.out.println("Average rainfall: " + (apr+may+jun)/3.0);
-
 	}
+
 }
